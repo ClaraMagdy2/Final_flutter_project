@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'components/buildprofileinfocard.dart';
 
 class ProfileScreenTab extends StatelessWidget {
@@ -22,7 +21,7 @@ class ProfileScreenTab extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            // Profile Picture Section
+
             Stack(
               alignment: Alignment.center,
               children: [
@@ -30,11 +29,7 @@ class ProfileScreenTab extends StatelessWidget {
                   width: double.infinity,
                   height: 150,
                   decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [Colors.deepPurple, Colors.deepPurpleAccent],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
+                    color: Colors.deepPurple,
                     borderRadius: BorderRadius.vertical(
                       bottom: Radius.circular(30),
                     ),
@@ -44,9 +39,8 @@ class ProfileScreenTab extends StatelessWidget {
                   top: 80,
                   child: CircleAvatar(
                     radius: 60,
-                    backgroundImage: AssetImage('images/person.jpg'),
-                    // Replace with your image
-                    backgroundColor: Colors.white,
+                    backgroundImage: AssetImage('images/person.jpg'), // Profile image
+                    backgroundColor: Colors.white, // Background color around the image
                   ),
                 ),
               ],
