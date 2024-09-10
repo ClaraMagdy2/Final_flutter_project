@@ -49,7 +49,7 @@ class _ResetState extends State<Reset> {
                 ),
                 buildTextFormField(
                   prefix: Icon(Icons.lock, color: Colors.black45),
-                  hintText: "Confirm new Password",
+                  hintText: "new Password",
                   keyboardType: TextInputType.text,
                   obscureText: isObscure,
                   validator: (value) {
@@ -74,7 +74,7 @@ class _ResetState extends State<Reset> {
                 ),
                 buildTextFormField(
                   prefix: Icon(Icons.lock, color: Colors.black45),
-                  hintText: "Password",
+                  hintText: "Confirm new Password",
                   keyboardType: TextInputType.text,
                   obscureText: isObscure,
                   validator: (value) {
