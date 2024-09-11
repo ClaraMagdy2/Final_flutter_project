@@ -8,7 +8,6 @@ required String imagePath,
 required Widget targetScreen
 }) {
     return Dialog(
-      backgroundColor: Colors.transparent,
       child: Container(
         padding: EdgeInsets.all(20),
         decoration: BoxDecoration(
@@ -16,7 +15,7 @@ required Widget targetScreen
           borderRadius: BorderRadius.circular(15),
         ),
         child: Column(
-          mainAxisSize: MainAxisSize.min,
+          mainAxisSize: MainAxisSize.min, // Takes only the space needed by its children
           children: [
             Container(
               margin: EdgeInsets.only(bottom: 20),

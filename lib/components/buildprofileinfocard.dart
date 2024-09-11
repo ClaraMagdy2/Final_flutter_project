@@ -6,7 +6,7 @@ Widget buildProfileInfoCard({
   required String value,
 }) {
   return Card(
-    elevation: 4,
+    elevation: 4,// This adds a shadow to the card, giving it a raised look.
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(15.0),
     ),

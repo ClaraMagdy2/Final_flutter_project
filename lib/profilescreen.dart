@@ -36,7 +36,7 @@ class ProfileScreenTab extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 80,
+                  top: 60,
                   child: CircleAvatar(
                     radius: 60,
                     backgroundImage: AssetImage('images/person.jpg'), // Profile image
