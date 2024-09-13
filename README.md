@@ -1,16 +1,13 @@
-# medical_app_final_project
+# Medical Appointments - Flutter Frontend
+# Overview
 
-A new Flutter project.
+This Flutter frontend application provides a comprehensive platform for managing doctor appointments, aimed at both patients and healthcare providers. The app enables users to schedule, view, and manage medical appointments efficiently while ensuring a smooth user experience through a well-designed interface.
+# Key Features
 
-## Getting Started
+    User Authentication: Secure login and registration for patients and doctors
+    Appointment Scheduling: Easy-to-use calendar and booking system allowing patients to book appointments with available doctors.
+    Doctor Profiles: Browse through doctor profiles, including their specialties, availability, and contact information.
+    User-Friendly Interface: Intuitive design with responsive layouts suitable for both mobile and tablet devices.
+# Technology Stack
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Flutter: For building the natively compiled application for mobile and web from a single codebase.
